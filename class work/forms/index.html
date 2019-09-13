@@ -1,0 +1,107 @@
+<html>
+<head>
+    
+    <title>
+    HTML FORMS
+    </title>
+    </head>
+
+    
+<body>
+    <h1>create profile</h1>
+    
+    <!--forms are used to collect user input-->
+    <!--the information is represented in the url!-->
+    <form>
+        <!--labels define inputs-->
+        <!--type indicates user data type + determines the behavior of the box-->
+        <!--name is like assigning a name to variable-->
+        <!--required causes an error if the input isn't formatted correctly-->
+        <!--placeholder displays "sample" data in grey text-->
+        <!--value specifies the data in the input box-->
+        <!--the order of the attributes doesn't matter-->
+        <!--fields + legends are rarely used; they are containers-->
+        <label>
+            <input type="text" name="fn" placeholder="first name" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="text" name="ln" placeholder="last name"required>
+        </label>
+        <br>
+        <br>
+        <label>
+            <!--type=email will require the syntax for emails-->
+            <input type="email" name="eml" placeholder="email" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="password" name="pw" placeholder="pass" required>
+        </label>
+        <br>
+        <br>
+        <!--the names of grouped inputs must be the same--->
+        
+        <p>gender</p>
+        <label>
+            <input type="radio" name="gd" value="m" required> m
+        </label>
+        <br>
+        <br>
+         <label>
+            <input type="radio" name="gd" value="w" required> w
+        </label>
+        <br>
+        <br>
+         <label>
+            <input type="radio" name="gd" value="nb" required> nb
+        </label>
+        <br>
+        <br>
+        
+        <!--with grouped checkboxes, you can select any and all options-->
+        <p>contact</p>
+        <label>
+            <input type="checkbox" name="ct" value="e" required> email
+        </label>
+        <br>
+        <br>
+         <label>
+            <input type="checkbox" name="ct" value="t" required> telephone
+        </label>
+        <br>
+        <br>
+         <label>
+            <input type="checkbox" name="ct" value="ma" required> mail
+        </label>
+        <br>
+        <br>
+        <!--textarea prepopulates into the code; keep them on the same line-->
+        <label>message<br>
+            <textarea name="msg"></textarea>
+        </label>
+        <br>
+        <br>
+        <!--selects are dropdown menus-->
+        <select name="cars">
+	       <option value="volvo">Volvo</option>
+	       <option value="saab">Saab</option>
+        </select>
+        <br>
+        <br>
+        <button type="button">Click Me!</button>
+        <br>
+        <br>a
+        <input type="submit" value="Register Now">
+    </form>
+    
+    
+    
+    </body>
+
+    
+    
+    
+</html>
