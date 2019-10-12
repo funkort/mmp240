@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Averia+Sans+Libre|Ubuntu&display=swap');
+
+body{
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    color: #000;
+}
+
+.label{
+  text-align: center;
+  font-size:18px;
+    
+}
+
+p{
+ font-size:16px    
+}
+
+a{
+ color:#0010C9;
+ text-decoration: none;
+}
+
+a:hover{
+ color:#8B92E6;    
+}
+
+/*fixed banner from 
+ *https://www.w3schools.com/howto/howto_css_fixed_menu.asp
+ *referenced on 09/04/2019
+*/
+.banner{
+  overflow: hidden;
+  background-color:white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height:3em;
+}
+.name{
+  margin-top:20px;
+  padding-right:100px;
+  text-align: right;
+  font-family: Averia Sans Libre, cursive;
+  color:#000;
+}
+ 
+.instructions{
+  padding:25px 10px        
+}
+
+
